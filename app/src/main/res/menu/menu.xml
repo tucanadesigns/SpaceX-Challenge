@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_year"
+        android:title="@string/group_by_year"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_mission"
+        android:title="@string/group_alphabetically"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_successful"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="300"
+        android:title="@string/show_only_successful"
+        app:actionViewClass="android.widget.CheckBox"
+        app:showAsAction="never" />
+</menu>

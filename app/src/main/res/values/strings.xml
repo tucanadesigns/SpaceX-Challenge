@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SpaceX Launches</string>
+
+<!-- Menu items -->
+    <string name="group_by_year">Group by Year</string>
+    <string name="group_alphabetically">Group Alphabetically</string>
+    <string name="show_only_successful">Show Only Successful</string>
+
+<!-- UI templates for mission details fragment -->
+    <string name="details_flight_number">Flight Number: %d</string>
+    <string name="details_mission_name">Mission Name: %s</string>
+    <string name="details_launch_date">Launch Date: %s</string>
+    <string name="details_launch_site">Launch Site:\n%s</string>
+    <string name="details_mission_desc">%s</string>
+    <string name="details_rocket_name">Rocket: %s</string>
+    <string name="details_rocket_height">Height: %.2f metres</string>
+    <string name="details_rocket_mass">Mass: %s kilograms</string>
+    <string name="details_rocket_diameter">Diameter: %.2f metres</string>
+    <string name="details_rocket_desc">%s</string>
+
+<!-- fixed labels -->
+    <string name="launch_details_label">Launch Details</string>
+    <string name="mission_details_error">No mission details available!</string>
+    <string name="mission_wiki_link">Mission Wiki Link</string>
+    <string name="rocket_wiki_link">Rocket Wiki Link</string>
+</resources>
